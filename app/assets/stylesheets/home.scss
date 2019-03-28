@@ -1,0 +1,51 @@
+.logo{
+    width: 100px;
+    animation: App-logo-spin infinite 20s linear;
+    pointer-events: none;
+}
+.container{
+    padding: 20px;
+    width: 500px;
+    border-left: solid;
+    border-left-color: white;
+    position: absolute;
+    display: inline-block;
+    color: white;
+    margin: 25% 50%;
+    transform: translate(-50%, -50%) ;
+    @media screen and (max-width: 991px) and (min-width: 50px) {
+        margin: 50%;
+    }
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: black;
+    position: relative;
+}
+h1{ 
+    font-size: 50px;
+    position: absolute;
+    top: -5px;
+    right: 50px;
+    margin: 50px 0px;
+}
+h4{
+    font-size: 30px;
+    margin: 30px;
+}
+title{
+    position: relative;
+    height: 600px;
+    background-color: red;
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(3000deg);
+    }
+  }
