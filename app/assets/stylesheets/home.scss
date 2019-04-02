@@ -2,8 +2,12 @@
     width: 60px;
     animation: App-logo-spin infinite 20s linear;
     pointer-events: none;
+    @media screen and (max-width: 991px) and (min-width: 50px) {
+        width: 30px;
+    }
 }
 .container{
+    max-width: 80%;
     padding: 40px;
     width: 500px;
     border-left: solid;
@@ -15,6 +19,7 @@
     transform: translate(-50%, -50%) ;
     @media screen and (max-width: 991px) and (min-width: 50px) {
         margin: 50%;
+        padding: 10px;
     }
 }
 html{
@@ -25,14 +30,16 @@ body{
     position: relative;
 }
 h1{ 
-    font-size: 50px;
     position: absolute;
     top: -5px;
-    right: 50px;
+    left: 135px;
     margin: 50px 0px;
+    @media screen and (max-width: 991px) and (min-width: 50px) {
+        font-size: 20px;
+        margin: 30px -70px;
+    }
 }
 h4{
-    font-size: 30px;
     margin: 30px;
 }
 title{
